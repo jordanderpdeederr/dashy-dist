@@ -1,6 +1,6 @@
 {
-  "version": "0.1.0",
-  "url": "https://github.com/jordanderpdeederr/dashy-dist/releases/download/v0.1.0/dashy-setup-0.1.0.exe",
-  "sha256": "d2810d7fd935dfd7be6d546fe1014bc738e71ed51703b93eb9d648dc3fe65919",
-  "notes": ""
+  "version": "0.1.1",
+  "url": "https://github.com/jordanderpdeederr/dashy-dist/releases/download/v0.1.1/dashy-setup-0.1.1.exe",
+  "sha256": "0c3c05b07c4dd7e110c43e3e52580ec1251e351cbc3f93e8d51ff5152d96c4bf",
+  "notes": "Windows build of dashy 0.1.1."
 }
