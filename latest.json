@@ -1,6 +1,6 @@
 {
-  "version": "0.1.1",
-  "url": "https://github.com/jordanderpdeederr/dashy-dist/releases/download/v0.1.1/dashy-setup-0.1.1.exe",
-  "sha256": "0c3c05b07c4dd7e110c43e3e52580ec1251e351cbc3f93e8d51ff5152d96c4bf",
-  "notes": "Windows build of dashy 0.1.1."
+  "version": "0.1.2",
+  "url": "https://github.com/jordanderpdeederr/dashy-dist/releases/download/v0.1.2/dashy-setup-0.1.2.exe",
+  "sha256": "36266b6f3c62e1157ddd109defd9938e8b7bf3c7b7eb56308ecba4566e123a01",
+  "notes": "Fix release notes so update prompts show the real changelog."
 }
