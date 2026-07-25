@@ -1,6 +1,6 @@
 {
-  "version": "0.1.2",
-  "url": "https://github.com/jordanderpdeederr/dashy-dist/releases/download/v0.1.2/dashy-setup-0.1.2.exe",
-  "sha256": "36266b6f3c62e1157ddd109defd9938e8b7bf3c7b7eb56308ecba4566e123a01",
-  "notes": "Fix release notes so update prompts show the real changelog."
+  "version": "0.1.3",
+  "url": "https://github.com/jordanderpdeederr/dashy-dist/releases/download/v0.1.3/dashy-setup-0.1.3.exe",
+  "sha256": "3eb67eafdb1eb72e6551c23206d958d18921099d100ddc744a5d52a830971a0a",
+  "notes": "Slimmer installer (75 MB -> 25 MB). Effort matrix with per-project theme view. Opt-in work-dispatch queue. Assorted fixes."
 }
