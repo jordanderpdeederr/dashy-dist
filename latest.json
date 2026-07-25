@@ -1,6 +1,6 @@
 {
-  "version": "0.1.3",
-  "url": "https://github.com/jordanderpdeederr/dashy-dist/releases/download/v0.1.3/dashy-setup-0.1.3.exe",
-  "sha256": "3eb67eafdb1eb72e6551c23206d958d18921099d100ddc744a5d52a830971a0a",
-  "notes": "Slimmer installer (75 MB -> 25 MB). Effort matrix with per-project theme view. Opt-in work-dispatch queue. Assorted fixes."
+  "version": "0.1.4",
+  "url": "https://github.com/jordanderpdeederr/dashy-dist/releases/download/v0.1.4/dashy-setup-0.1.4.exe",
+  "sha256": "ffc0f319d1b1784752e322df22379c414c5951ba932f4c2efeb509e3030505e9",
+  "notes": "Relaunch dashy after a silent auto-update.\n\nThe silent self-update swapped files but never brought dashy back up: the Inno\n[Run] launch entry was skipifsilent and dashy self-exits before Setup's Restart\nManager runs, so nothing relaunched it. Dropping skipifsilent makes the launch\nfire after a silent install too."
 }
