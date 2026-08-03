@@ -1,6 +1,6 @@
 {
-  "version": "0.1.4",
-  "url": "https://github.com/jordanderpdeederr/dashy-dist/releases/download/v0.1.4/dashy-setup-0.1.4.exe",
-  "sha256": "ffc0f319d1b1784752e322df22379c414c5951ba932f4c2efeb509e3030505e9",
-  "notes": "Relaunch dashy after a silent auto-update.\n\nThe silent self-update swapped files but never brought dashy back up: the Inno\n[Run] launch entry was skipifsilent and dashy self-exits before Setup's Restart\nManager runs, so nothing relaunched it. Dropping skipifsilent makes the launch\nfire after a silent install too."
+  "version": "0.2.0",
+  "url": "https://github.com/jordanderpdeederr/dashy-dist/releases/download/v0.2.0/dashy-setup-0.2.0.exe",
+  "sha256": "8345fd2d1b0117f8573922fa48f94d559373caeea69a2d3f3c9f1e2125eb321d",
+  "notes": "Theme lineage, the work queue, and a demo workspace.\n\nTheme lineage: a new per-project graph showing how one idea led to another,\nlaid out along a real time axis. Node size is how much effort a theme drew,\nfill shows how recently it was touched, and dashed edges mark relationships\nthe evidence supports only weakly.\n\nWork queue: tasks enter a queue and route to the right worker, with pause and\nresume and crash recovery.\n\nShipped view: what actually landed, over time.\n\nDemo workspace: run \"dashy demo\" for a seeded workspace to explore without\ntouching your own notes.\n\nModel settings: bring your own model, configured per provider.\n\nAlso in this release: a dashboard configuration viewer, and a fix for\nproject-scoped dashboard settings never reloading until restart."
 }
