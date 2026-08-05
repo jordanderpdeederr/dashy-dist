@@ -1,0 +1,27 @@
+# dashy-dist theme registry, seeded 2026-08-04 from git history.
+# This repo carries build artifacts only, never source, so its themeworthy
+# content is narrow by design: the release stream and the manifest installed
+# copies poll. Everything else in its history is pipeline bookkeeping.
+version: 1
+themes:
+- name: releases
+  title: Windows release stream
+  description: 'Publishing versioned Windows installers (dashy-setup-X.Y.Z.exe) as
+    GitHub releases plus the latest.json manifest installed copies poll for self-update.
+    Produced automatically by the dashy repo''s windows-release workflow on a version
+    tag.
+
+    '
+  status: feature
+  aliases:
+  - release
+  - installer
+  - latest.json
+  - auto-update
+  paths:
+  - latest.json
+rejected:
+- daily-rollup
+- observations
+- repo-hygiene
+- tracker-maintenance
